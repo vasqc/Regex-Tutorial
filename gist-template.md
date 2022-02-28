@@ -1,4 +1,4 @@
-Finding A Phone Number
+**Finding A Phone Number**
 
 Within many Databases, user data is important to so many people and one of the most important pieces of DATA that a 'USER' can provide is their phone number.  It helps keep in contact and usually can provide a direct correlation to the specific user.   Phone numbers are usually connected to the 'USER' for a longer period of time and are much harder to change, unlike emails. 
 Regualar Expression (RegEx) is a way to search through a string of text in a powerful way.
@@ -6,8 +6,8 @@ Regualar Expression (RegEx) is a way to search through a string of text in a pow
 Summary
 I will be explaining the following expression, in order to target and group together different types of provided phone numbers.  Whether they be a local number or international. Regardless of format.
 The Expression
-/(?:(\+1)[ -])\(?(?<areacode>\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})/gm
-
+**/(?:(\+1)[ -])\(?(?<areacode>\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})/gm
+**
 
 Regex Components
 
