@@ -5,6 +5,8 @@ Regualar Expression (RegEx) is a way to search through a string of text in a pow
 
 Summary
 I will be explaining the following expression, in order to target and group together different types of provided phone numbers.  Whether they be a local number or international. Regardless of format.
+
+
 The Expression
 **/(?:(\+1)[ -])\(?(?<areacode>\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})/gm
 **
