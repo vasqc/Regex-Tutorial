@@ -8,8 +8,8 @@ I will be explaining the following expression, in order to target and group toge
 
 
 The Expression
-**/(?:(\+1)[ -])\(?(?<areacode>\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})/gm
-**
+/(?:(\+1)[ -])\(?(?<areacode>\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})/gm
+
 
 Regex Components
 
